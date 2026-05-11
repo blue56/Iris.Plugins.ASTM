@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37111.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.Plugins.ASTM", "Iris.Plugins.ASTM\Iris.Plugins.ASTM.csproj", "{D66B5A46-44F9-4B19-A218-3E0EB5DAF0BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iris.Plugins.Contracts", "Iris.Plugins.Contracts\Iris.Plugins.Contracts.csproj", "{F8349111-6C9D-5AE4-A718-BBC1CDD183CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D66B5A46-44F9-4B19-A218-3E0EB5DAF0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D66B5A46-44F9-4B19-A218-3E0EB5DAF0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D66B5A46-44F9-4B19-A218-3E0EB5DAF0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D66B5A46-44F9-4B19-A218-3E0EB5DAF0BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8349111-6C9D-5AE4-A718-BBC1CDD183CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8349111-6C9D-5AE4-A718-BBC1CDD183CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8349111-6C9D-5AE4-A718-BBC1CDD183CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8349111-6C9D-5AE4-A718-BBC1CDD183CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11B98694-85A0-430A-BF1E-99E0F39ADE07}
+	EndGlobalSection
+EndGlobal

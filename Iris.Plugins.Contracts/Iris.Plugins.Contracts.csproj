@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>Iris.Plugins.Contracts</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>blue56</Authors>
+    <Description>Plugin authoring contracts for Iris plugins, including source and target interfaces, message types, and plugin metadata attributes.</Description>
+    <PackageTags>iris;plugins;contracts;dotnet</PackageTags>
+    <RepositoryUrl>https://github.com/blue56/Iris</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
