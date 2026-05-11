@@ -28,11 +28,15 @@ jobs:
       - name: Test
         run: dotnet test --no-build --configuration Release
 
-      - name: Pack
-        run: dotnet pack --no-build --configuration Release --output ./artifacts
+      - name: Publish
+        run: dotnet publish --no-build --configuration Release --output ./artifacts
+
+      - name: Zip binaries
+        run: Compress-Archive -Path ./artifacts/* -DestinationPath ./release.zip
+        shell: pwsh
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: ./artifacts/*.nupkg
+          files: ./release.zip
           generate_release_notes: true
